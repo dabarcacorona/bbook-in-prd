@@ -34,13 +34,13 @@ public class BbookEnvioPrd {
     @Column(name="variacion" ,columnDefinition = "varchar2(15)")
     private String variacion;
 
-    @Column(name="namevariacion" ,columnDefinition = "varchar2(50)")
+    @Column(name="namevariacion" ,columnDefinition = "varchar2(100)")
     private String nameVariacion;
     
-    @Column(name="idcolor" ,columnDefinition = "varchar2(12)")
+    @Column(name="idcolor" ,columnDefinition = "varchar2(15)")
     private String idcolor;
     
-    @Column(name="idtalla" ,columnDefinition = "varchar2(12)")
+    @Column(name="idtalla" ,columnDefinition = "varchar2(15)")
     private String idtalla;
 
     @Column(name="prd_upc" ,columnDefinition = "number(18)")
